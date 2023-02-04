@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><i class="bi bi-chat-left-text"></i>LAPOR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Tentang Kami</a>
+                        </li>
+                        
+                    </ul>
+                    <div class="d-flex">
+                        <a href="" class="btn btn-outline-primary me-2">Daftar</a>
+                        <a href="" class="btn btn-primary">Masuk</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="banner" class="d-flex justify-content-center align-items-center">
+        <div id="text" class="text-center text-white">
+            <h3>Layanan Aspirasi dan Pengaduan Online Rakyat</h3>
+            <p>Sampaikan laporan Anda langsung kepada instansi pemerintah berwenang</p>
+        </div>
+    </section>
+    <section id="form-pengaduan" class="py-5">
+        <div class="container">
+            <div class="card">
+                <div class="card-body px-4">
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="nik" class="form-label">NIK</label>
+                            <input type="text" name="nik" id="nik" class="form-control" placeholder="Masukkan NIK">
+                        </div>
+                        <div class="mb-3">
+                            <label for="nama" class="form-label">Nama</label>
+                            <input type="text" name="nama" id="nama" class="form-control" placeholder="Masukkan Nama">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Masukkan Email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="no_hp" class="form-label">No HP</label>
+                            <input type="number" name="no_hp" id="no_hp" class="form-control" placeholder="Masukkan No.HP">
+                        </div>
+                        <div class="mb-3">
+                            <label for="aduan" class="form-label">Aduan</label>
+                            <textarea name="aduan" id="aduan" class="form-control" cols="30" rows="10" placeholder="Masukkan Keterangan Aduan"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lampiran1" class="form-label">Lampiran1</label>
+                            <input type="file" name="lampiran1" id="lampiran1" class="form-control" placeholder="Masukkan lampiran1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="lampiran2" class="form-label">Lampiran2</label>
+                            <input type="file" name="lampiran2" id="lampiran2" class="form-control" placeholder="Masukkan lampiran2">
+                        </div>
+                        <div class="mb-3">
+                            <label for="lampiran3" class="form-label">Lampiran3</label>
+                            <input type="file" name="lampiran3" id="lampiran3" class="form-control" placeholder="Masukkan lampiran3">
+                        </div>
+                        <div class="mb-3">
+                            <label for="lampiran4" class="form-label">Lampiran4</label>
+                            <input type="file" name="lampiran4" id="lampiran4" class="form-control" placeholder="Masukkan lampiran4">
+                        </div>
+                        <div class="mb-3">
+                            <label for="lampiran5" class="form-label">Lampiran5</label>
+                            <input type="file" name="lampiran5" id="lampiran5" class="form-control" placeholder="Masukkan lampiran5">
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-primary">Kirim</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="total_laporan" class="py-5">
+        <div class="cantainer">
+            <div class="text-center text-white">
+                <h1>JUMLAH LAPORAN SEKARANG</h1>
+                <b style="font-size:100px">7634</b>
+            </div>
+        </div>
+    </section>
+    <section id="info" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="text-center">
+                        <i class="fs-1 bi bi-pencil-square"></i>
+                        <h4 class="mt-4">Tulis Laporan</h4>
+                        <p class="text-secondary">Laporkan keluhan atau aspirasi anda dengan jelas dan lengkap </p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="text-center">
+                        <i class="fs-1 bi bi-reply"></i>
+                        <h4 class="mt-4">Proses Verifikasi</h4>
+                        <p class="text-secondary">Dalam 3 hari, laporan Anda akan diverifikasi dan diteruskan kepada instansi berwenang </p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="text-center">
+                        <i class="fs-1 bi bi-chat-left-dots"></i>
+                        <h4 class="mt-4">Proses Tindak Lanjut</h4>
+                        <p class="text-secondary">Dalam 5 hari, instansi akan menindaklanjuti dan membalas laporan Anda </p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="text-center">
+                        <i class="fs-1 bi bi-check2-all"></i>
+                        <h4 class="mt-4">Selesai</h4>
+                        <p class="text-secondary">Laporan Anda akan terus ditindaklanjuti hingga terselesaikan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center">
+                <div class="d-flex justify-content-center">
+                    <a href="" class="m-2 text-danger p-3 fs-2"><i class="bi bi-facebook"></i></a>
+                    <a href="" class="m-2 text-danger p-3 fs-2"><i class="bi bi-twitter"></i></a>
+                    <a href="" class="m-2 text-danger p-3 fs-2"><i class="bi bi-youtube"></i></a>
+                    <a href="" class="m-2 text-danger p-3 fs-2"><i class="bi bi-instagram"></i></a>
+                </div>
+                &copy; 2023 | Lapor.com di susun oleh tim pengembang Amga
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
