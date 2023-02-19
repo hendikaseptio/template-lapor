@@ -9,7 +9,7 @@
 #form-pengaduan .card {
     transform: translateY(-100px);
 }
-#total_laporan {
+#total_laporan, #login  {
     background-color: #ba0d29;
     background-image: url('https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=600');
     background-size: cover;
