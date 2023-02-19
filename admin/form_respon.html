@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin|Lapor.com</title>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/custom.css">
+</head>
+<body>
+    <header id="top">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+                <a class="navbar-brand text-danger" href="#"><i class="bi bi-chat-left-text"></i> LAPOR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#form-pengaduan">Data Aduan</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <a href="login.html" target="blank" class="btn btn-danger"><i class="bi bi-box-arrow-right"></i> Keluar</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="data_aduan" class="py-5">
+        <div class="container">
+            <div class="card shadow">
+                <div class="card-header">Form Respon Aduan</div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped">
+                            <tr>
+                                <td>Aduan ID</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>NIK</td>
+                                <td>043875968943869</td>
+                            </tr>
+                            <tr>
+                                <td>Nama</td>
+                                <td>Dimas Kanjeng</td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td>dimas220@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>Nomor Handphone</td>
+                                <td>09437538768</td>
+                            </tr>
+                            <tr>
+                                <td>Aduan</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, assumenda?</td>
+                            </tr>
+                            <tr>
+                                <td>Foto 1</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Foto 2</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Foto 3</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Foto 4</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Foto 5</td>
+                                <td></td>
+                            </tr>
+                        </table>
+                        <form action="" method="post" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label for="respon" class="form-label">Respon</label>
+                            <textarea name="respon" id="respon" class="form-control" cols="30" rows="10" placeholder="Masukkan Keterangan Respon"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="status" class="form-label">Status</label>
+                            <select name="status" id="status" class="form-control">
+                                <option value="diproses">Diproses</option>
+                                <option value="ditolak">Ditolak</option>
+                                <option value="selesai">Selesai</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="foto1" class="form-label">Foto1</label>
+                            <input type="file" name="foto1" id="foto1" class="form-control" placeholder="Masukkan foto1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="foto2" class="form-label">Foto2</label>
+                            <input type="file" name="foto2" id="foto2" class="form-control" placeholder="Masukkan foto2">
+                        </div>
+                        <div class="mb-3">
+                            <label for="foto3" class="form-label">Foto3</label>
+                            <input type="file" name="foto3" id="foto3" class="form-control" placeholder="Masukkan foto3">
+                        </div>
+                        <div class="mb-3">
+                            <label for="foto4" class="form-label">Foto4</label>
+                            <input type="file" name="foto4" id="foto4" class="form-control" placeholder="Masukkan foto4">
+                        </div>
+                        <div class="mb-3">
+                            <label for="foto5" class="form-label">Foto5</label>
+                            <input type="file" name="foto5" id="foto5" class="form-control" placeholder="Masukkan foto5">
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-danger"><i class="bi bi-save"></i> Simpan</button>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <div class="text-center text-white">
+                <div class="d-flex justify-content-center">
+                    <a href="" class="m-2 text-danger p-3 fs-2"><i class="bi bi-facebook"></i></a>
+                    <a href="" class="m-2 text-danger p-3 fs-2"><i class="bi bi-twitter"></i></a>
+                    <a href="" class="m-2 text-danger p-3 fs-2"><i class="bi bi-youtube"></i></a>
+                    <a href="" class="m-2 text-danger p-3 fs-2"><i class="bi bi-instagram"></i></a>
+                </div>
+                &copy; 2023 | Lapor.com di susun oleh tim pengembang Amga
+            </div>
+        </div>
+    </footer>
+    <div id="fab">
+        <div class="position-fixed bottom-0 end-0">
+            <a href="#top" class="bg-danger d-inline-block p-3 m-4 rounded-3 text-white"><i class="bi bi-arrow-up"></i></a>
+        </div>
+    </div>
+    </body>
+<script src="../js/bootstrap.bundle.min.js"></script>
+</html>
